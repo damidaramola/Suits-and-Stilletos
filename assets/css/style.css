@@ -4,10 +4,23 @@
     margin:0;
     padding:0;
     border:none;
-
+    color: #3a3a3a;
 }
 
 body {
     font-family: lato ,sans-serif;
     font: weight 300px;
+}
+
+/* Headings and logo */
+
+h1,h2 {
+    font-family:Playfair Display , sans-serif ;
+    color:#252525;
+    letter-spacing: 1px;
+}
+
+#logo{
+    float:Left;
+    font-size: 280%;
 }
