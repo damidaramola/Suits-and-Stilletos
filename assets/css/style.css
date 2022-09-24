@@ -65,10 +65,29 @@ h2 {
 
 }
 
-#cover-text , #cover-text h2 {
-     color: #fff;
-     font-family:Playfair Display , sans-serif; 
-     
+
+.cover-text {
+    width:100% ;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.cover-text h1 {
+ font-size: 40px;
+ color:#fff;
+ font-family: lato ,sans-serif;
+ letter-spacing: 2px ;
+
+}
+.cover-text h2 {
+    margin: 10px 0 4px;
+    font-size: 16px;
+    color:#fff;
+    font-family: lato ,sans-serif;
+    letter-spacing: 1px;
 }
 
 #hero-image {
@@ -76,6 +95,7 @@ h2 {
     width: 100%;
     background: url(../images/hero-image3.jpg) no-repeat center center;
     background-size: cover;
+    
 
     /* Animantes zoom effects on */
     animation-name: hero-zoom;
