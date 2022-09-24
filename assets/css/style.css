@@ -24,7 +24,7 @@ h2 {
 #logo {
     float: Left;
     font-size: 280%;
-    margin-left:30px;
+    margin-left: 30px;
 }
 
 /* Navigation Links*/
@@ -67,26 +67,28 @@ h2 {
 
 
 .cover-text {
-    width:100% ;
+    width: 100%;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .cover-text h1 {
- font-size: 40px;
- color:#fff;
- font-family: lato ,sans-serif;
- letter-spacing: 2px ;
+    font-size: 40px;
+    color: #fff;
+    font-family: lato, sans-serif;
+    letter-spacing: 2px;
 
 }
+
 .cover-text h2 {
     margin: 10px 0 4px;
     font-size: 16px;
-    color:#fff;
-    font-family: lato ,sans-serif;
+    color: #fff;
+    font-family: lato, sans-serif;
     letter-spacing: 1px;
 }
 
@@ -95,7 +97,7 @@ h2 {
     width: 100%;
     background: url(../images/hero-image3.jpg) no-repeat center center;
     background-size: cover;
-    
+
 
     /* Animantes zoom effects on */
     animation-name: hero-zoom;
@@ -115,23 +117,24 @@ h2 {
     }
 }
 
-#cover-text , #cover-text h2 {
-    color:#fff;
+#cover-text,
+#cover-text h2 {
+    color: #fff;
 
 }
 
-#cover-text{
-    font-size:150%;
+#cover-text {
+    font-size: 150%;
     font-family: Playfair Display, sans-serif;
     letter-spacing: 4px;
     width: 630px;
     height: 100px;
 
     padding-top: 20px;
-    padding-left:10px;
+    padding-left: 10px;
 
     bottom: 250px;
-    right:350px;
+    right: 350px;
 
     position: absolute;
 }
@@ -139,40 +142,40 @@ h2 {
 /* Motivate-section*/
 
 #motiviate-section {
-    height:600px;
+    height: 600px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
-    width:33%;
+    width: 33%;
     float: left;
 
 }
 
 #right-about {
     padding-top: 30px;
-    width:33%;
+    width: 33%;
     float: right;
 }
 
 #center-about {
-    width:33%;
-    margin:0 auto ;
-    
+    width: 33%;
+    margin: 0 auto;
+
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
-    width:100%;
+    width: 100%;
     margin: 5px 0;
 
 }
 
 .left-about-heading {
-    width:60%;
+    width: 60%;
     float: right;
     line-height: 30px;
-    clear:both;
+    clear: both;
     margin-bottom: 50px;
 }
 
@@ -181,6 +184,25 @@ hr {
     padding-bottom: 50px;
 }
 
-#social-media-links li {
- float:bottom
+/* media queries */
+
+@media(max-width :800px) {
+    .cover-text h1 {
+        font-size: 30px;
+    }
+
+    #menu li{
+        display:block;
+    } 
+
+    #menu{
+        position: absolute;
+        background-color:#ffcb22e7;
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
 }
