@@ -28,27 +28,27 @@ h2 {
 }
 
 /* Navigation Links*/
-#menu {
+.menu {
     font-size: 110%;
     letter-spacing: 1px;
 }
 
-#menu,
+.menu,
 #logo {
     line-height: 75px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -191,11 +191,11 @@ hr {
         font-size: 30px;
     }
 
-    #menu li{
+    .menu li{
         display:block;
     } 
 
-    #menu{
+    .menu{
         position: absolute;
         background-color:#ffcb22e7;
         height: 100vh;
