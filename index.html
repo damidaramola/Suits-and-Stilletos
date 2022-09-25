@@ -17,18 +17,19 @@
             <h1 id="logo">Suits & Stilletos</h1>
         </a>
         <nav>
-            <div class="menu"> 
-            <i class="fas fa-times"></i>
-            <ul> 
-                <li> <a href="#">Sign up</a>
-                </li>
-                <li> <a href="#">Resources</a>
-                </li>
-                <li> <a href="#">About</a>
-                </li>
-                <li> <a href="index.html" class="active">Home</a></li>
-            </ul>
+            <div class="menu" id="menuLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="#">Sign up</a>
+                    </li>
+                    <li> <a href="#">Resources</a>
+                    </li>
+                    <li> <a href="#">About</a>
+                    </li>
+                    <li> <a href="index.html" class="active">Home</a></li>
+                </ul>
             </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
     </header>
     <section id="hero-outer">
@@ -89,6 +90,17 @@
     </footer>
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/201d2e1896.js" crossorigin="anonymous"></script>
+
+    <!----Javascript for menu--->
+<script>
+    var menuLinks=document.getElementById("menuLinks");
+    function showMenu(){
+        menuLinks.style.right = "0";
+    }
+    function hideMenu(){
+        menuLinks.style.right = "-150px";
+    }
+</script>
 
 </body>
 
