@@ -235,7 +235,7 @@ nav .fa-bars {
 }
 
 .about-column:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width:825px) {
