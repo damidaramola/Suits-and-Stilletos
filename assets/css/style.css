@@ -280,6 +280,18 @@ nav .fa-bars {
     border-radius: 10px;
 }
 
+.resources-column p {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.resources-column h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
 .layer {
     background: transparent;
     height: 100%;
