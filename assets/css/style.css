@@ -261,10 +261,13 @@ nav .fa-bars {
     flex-basis: 20%;
     height: 40vh;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+    text-align:center;
     position: relative;
-    overflow: hidden;
+    overflow:initial;
+    
 }
+
 
 .resources h1 {
     font-family: Lato, sans-serif;
@@ -273,6 +276,8 @@ nav .fa-bars {
 
 .resources-column img {
     height: 100%;
+    display: block;
+    border-radius: 10px;
 }
 
 .layer {
