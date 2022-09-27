@@ -289,10 +289,22 @@ nav .fa-bars {
 }
 
 .layer h3 {
-    font-weight: 600;
-    font-size: large;
-    text-align: center;
-    background-color: #f7cd46;
-    padding-bottom: 12px;
-    border-radius: 10px;
+    
+width: 100%;
+background-color: #f7cd46;
+font-weight: 600;
+color:#252525;
+font-size: 26px;
+bottom:0;
+left: 50%;
+transform: translateX(-50%);
+position: absolute;
+opacity: 0;
+transition: 0.5s;
+
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
 }
