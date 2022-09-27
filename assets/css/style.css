@@ -287,3 +287,12 @@ nav .fa-bars {
 .layer:hover {
     background: rgba(228, 196, 52, 0.685)
 }
+
+.layer h3 {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    background-color: #f7cd46;
+    padding-bottom: 12px;
+    border-radius: 10px;
+}
