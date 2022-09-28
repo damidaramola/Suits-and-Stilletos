@@ -325,3 +325,31 @@ transition: 0.5s;
     bottom: 49%;
     opacity: 1;
 }
+
+/*footer*/
+
+.footer {
+    width:100;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer h4 {
+margin-bottom: 25px;
+margin-top: 20px;
+font-weight: 600;
+}
+
+.icons .fab {
+   color: #eec02a;
+   margin: 0 13px;
+   cursor: pointer;
+   padding: 18px 0;
+   font-size: 120%;
+}
+
+.icons > li {
+    display: inline;
+}
+
