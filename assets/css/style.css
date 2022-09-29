@@ -363,3 +363,22 @@ text-align: center;
 color:#fff; 
 }
 
+.about-us {
+    width: 80%;
+    margin:auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-column{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-column h1 {
+padding-top:0 ;
+}
+
+.about-column p {
+    padding: 15px 0  25px;
+    }
