@@ -432,3 +432,12 @@ padding-top:0 ;
         font-size:15px;
         margin-bottom: 5px;
     }
+
+    .contact-column input {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 17px;
+        outline: none;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
