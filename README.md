@@ -82,17 +82,17 @@ steps to deploy:
 6. The page should now provide the link to the completed website.
 
 
-The Live link can be found here- https://damidaramola.github.io/Suits-and-Stilletos/
+The Live link can be found here- [project](https://damidaramola.github.io/Suits-and-Stilletos/)
 
 # credits 
 
 ## content 
 
 * The format used to make this read me file was taken from the CI sample project README.md video.
-* The tutorial used to make this website was taken from https://www.youtube.com/watch?v=oYRda7UtuhA&t=25s
+* The tutorial used to make this website was taken from [tutorial](https://www.youtube.com/watch?v=oYRda7UtuhA&t=25s)
 
 ## Media 
-* All images were taken from  https://www.pexels.com/
+* All images were taken from [pexels](https://www.pexels.com/)
 
 
 
