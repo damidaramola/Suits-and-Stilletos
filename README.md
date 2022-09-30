@@ -88,7 +88,7 @@ The Live link can be found here- [project](https://damidaramola.github.io/Suits-
 
 ## content 
 
-* The format used to make this read me file was taken from the CI sample project README.md video.
+* The format used to make this read me file was taken from the CI sample project README.md video [README.md example](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
 * The tutorial used to make this website was taken from [tutorial](https://www.youtube.com/watch?v=oYRda7UtuhA&t=25s)
 
 ## Media 
