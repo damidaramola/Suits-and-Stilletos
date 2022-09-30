@@ -5,7 +5,8 @@ Suits and Stillettos is an educational platform which aims to provide undergradu
 1. Networking Events
 2. Mentorship from an experienced proffessional
 3. Courses that will help the student upskill in their desired feild 
- add screenshot here
+ ![responsive website picture](https://user-images.githubusercontent.com/110638513/193242978-de96b67b-adb1-4b0b-8aff-e050d4df29d8.jpg)
+
 ## Features
 
 * As shown at the top of the page, the navigation shows the company name at the top left-hand corner: Suits&Stilletos that links to the top of the page.
@@ -15,7 +16,7 @@ Suits and Stillettos is an educational platform which aims to provide undergradu
 * The navigation color which is black, contrasts with the white background behind it.
 
 * This navigation clearly shows the company name and the name of each page is easy to find.
- add screen shot here .
+![S S header](https://user-images.githubusercontent.com/110638513/193243566-8e6adfbf-b801-4ddd-a3d2-05e857351a84.jpg)
 
  ## Header 
  
@@ -23,19 +24,19 @@ Suits and Stillettos is an educational platform which aims to provide undergradu
 
  * The header has text that conveys a motivational message for the student when they first visit the website.
 
- add screenshot 
+ ![Learn as you lead your legacy ](https://user-images.githubusercontent.com/110638513/193243910-1677e7b0-10f4-4fd7-9dfd-1bb4aa3ee8b7.jpg)
+
 
  ## About Us section
 
  * This section explains who Suits and Stilletos are , and their target audience and the service they provide.
 
- add screenshot 
-
+![About us section](https://user-images.githubusercontent.com/110638513/193244074-d41231c4-b179-4cbb-bdc1-d88d6ddd3f36.jpg)
  ## Sign up form
 
  *This form is in the signup page of the website and allows the user to put in their email, phone number and course that they study in order to gain supplementary information about the resources provided.
 
- add screenshot 
+![Sign up form](https://user-images.githubusercontent.com/110638513/193244301-4985504b-a01d-45a5-8ccd-4c91d0d54e73.jpg)
 
  ## Contact Section
 
@@ -43,7 +44,8 @@ Suits and Stillettos is an educational platform which aims to provide undergradu
 
 * It provides the business address, telephone number and Email of the company.
 
-add screenshot 
+![Contact section](https://user-images.githubusercontent.com/110638513/193244440-13b38927-b973-4ca5-9f34-c22e17ca874a.jpg)
+
 ## Testing
 
 * I have tested and can confirm that this page works in various browsers such as Firefox, Chrome and Safari
@@ -64,27 +66,33 @@ add screenshot
  6 errors were found with my form in the sign up page, stemming from the 1 error of using the spam element for my form
 
 * accessibility
-placeholder
+ I can confirm that the colours and fonts used in the website are easy to read accessible by running it through lighthouse in dev tools.
+ 
+ ![lighthouse stats](https://user-images.githubusercontent.com/110638513/193245540-685b7d42-41fc-4ffe-af19-8e2e1d106065.jpg)
 
 ## Deployment
 This website was deployed to git hub pages.
 steps to deploy:
 
 1. In the git hub repository, navgate to the settings tab.
-2. From the source section drop, Master Branch is to be selected
-3. The page should now provide the link to the completed website.
+2. Click the pages section on the left-hand side of the screen and you will seee the source section.
+3. From the source section drop, choose 'deploy from a branch'.
+4. From the branch section drop, choose 'main'.
+5. Refresh the page if link is not instantly generated.
+6. The page should now provide the link to the completed website.
 
-The Live link can be found here- add link
+
+The Live link can be found here- https://damidaramola.github.io/Suits-and-Stilletos/
 
 # credits 
 
 ## content 
 
 * The format used to make this read me file was taken from the CI sample project README.md video.
-* The tutorial used to make this website was taken from add link
+* The tutorial used to make this website was taken from https://www.youtube.com/watch?v=oYRda7UtuhA&t=25s
 
 ## Media 
-* All images were taken from Pexels 
+* All images were taken from  https://www.pexels.com/
 
 
 
