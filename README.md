@@ -20,7 +20,7 @@ Suits and Stillettos is an educational platform which aims to provide undergradu
 
  ## Header 
  
- * The header shows a photo of young people working together in a corporate environment. In this background image, yellow can be seen. The colour of yellow symbolises youth. Yellow and white are the main reccuring theme colours of this website.
+ * The header shows a photo of young people working together in a corporate environment. In this background image, yellow can be seen. The colour of yellow symbolises youth. Yellow and white are the main recurring theme colours of this website.
 
  * The header has text that conveys a motivational message for the student when they first visit the website.
 
@@ -56,7 +56,7 @@ Suits and Stillettos is an educational platform which aims to provide undergradu
 ## Unfixed Bugs
 * When I tested my sign-up page in the WC3 validator, I realised that my form had errors as I was not supposed to use the span element, followed by H5 or p to section my form.
 
-* I also had issues with the sizing of my images on the resource page
+* I also had issues with the sizing of my images on the resource page.
 
 * I had a problem with the positioning of my footer.
 
@@ -75,7 +75,7 @@ This website was deployed to git hub pages.
 Steps to deploy:
 
 1. In the git hub repository, navigate to the settings tab.
-2. Click the pages section on the left-hand side of the screen,and you will seee the source section.
+2. Click the pages section on the left-hand side of the screen,and you will see the source section.
 3. From the source section drop, choose 'deploy from a branch'.
 4. From the branch section drop, choose 'main'.
 5. Refresh the page if the link is not instantly generated.
