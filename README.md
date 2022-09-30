@@ -84,7 +84,7 @@ Steps to deploy:
 
 The Live link can be found here- [project](https://damidaramola.github.io/Suits-and-Stilletos/)
 
-# credits 
+## credits 
 
 ## content 
 
