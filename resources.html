@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Educational resource and career development for undergraduates">
+    <meta name="keywords" content="career development, undergraduates, university, education , educational resources">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Suits and Stilletos</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Suits & Stilletos</h1>
+        </a>
+        <nav>
+            <div class="menu" id="menuLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="signup.html">Sign up</a>
+                    </li>
+                    <li> <a  href="resources.html" class="active">Resources</a>
+                    </li>
+                    <li> <a href="about.html">About</a>
+                    </li>
+                    <li> <a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+    <section id="hero-outer">
+        <div id="about-image"> </div>
+        <div class="cover-text">
+            <h1>About us</h1>
+            <h2>Discover your strengths and make your mark</h2>
+        </div>
+    </section>
+  
+    <section class="footer">
+        <h4>Follow us on social media</h4>
+
+        <ul class="icons">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page(opens in new tab) "><i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com" target="_blank" rel="noopener"
+                    aria-label="visit our twitter page(opens in new tab) "><i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="visit our instagram page(opens in new tab) "><i class="fab fa-instagram"></i> 
+                </a>
+            </li>
+            <li>
+                <a href="https://tiktok.com" target="_blank" rel="noopener"
+                    aria-label="visit our tiktok page(opens in new tab) "><i class="fab fa-tiktok"></i>
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/201d2e1896.js" crossorigin="anonymous"></script>
+
+    <!----Javascript for menu--->
+    <script>
+        var menuLinks = document.getElementById("menuLinks");
+
+        function showMenu() {
+            menuLinks.style.right = "0";
+            menuLinks.style.display = "block"
+        }
+
+        function hideMenu() {
+            //  menuLinks.style.right = "-150px";
+            menuLinks.style.display = "none"
+        }
+    </script>
+
+</body>
+
+</html>

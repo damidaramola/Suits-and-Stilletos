@@ -388,3 +388,15 @@ padding-top:0 ;
 .about-column p {
     padding: 15px 0  25px;
     }
+
+    .location {
+        width:80%;
+        margin: auto;
+        padding: 80px 0;
+
+    }
+
+    .location iframe {
+        width:100%;
+
+    }
